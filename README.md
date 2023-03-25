@@ -96,13 +96,26 @@ sed -i 's/SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
 
 9. Update the system,
 
-10. dnf install -y openstack-packstack
+dnf -y update
+
+10. Install Packstack
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688823-3f62669d-f64b-42fc-943b-ccd2b3dfcf95.png">
 
 11. Generate answer file,
-
+```
+packstack --gen-answer-file=/root/answers.txt --os-neutron-l2-agent=openvswitch 
+--os-neutron-ml2-mechanism-drivers=openvswitch --os-neutron-ml2-tenant-network-types=vxlan --os-neutron-ml2-type-drivers=vxlan,flat 
+--provision-demo=n --os-neutron-ovs-bridge-mappings=extnet:br-ex --os-neutron-ovs-bridge-interfaces=br-ex:eth0 
+--keystone-admin-passwd=redhat --os-heat-install=n
+```
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688975-6e84bfe8-ec82-44e7-8bbd-8c2ca8b380c0.png">
+
+12. Start the installation,
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689149-34e37516-f03c-433c-8130-6dfff788afc2.png">
+
+
 
 
 
