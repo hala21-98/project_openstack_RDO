@@ -224,9 +224,14 @@ validate two rules added
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738842-a679c862-6bc7-4ab6-9108-da693eb2dc77.png">
 
-Ping from the instance to the host,
+6.1 Ping from the instance to the host,
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738890-672444be-e195-4953-a93e-290954e4a982.png">
+
+6.2 exit from ssh connection and then ping from host to instance
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227739472-ec44dc8e-594e-4b67-8de6-9e04ab90f851.png">
+
 
 
 
