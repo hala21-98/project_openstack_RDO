@@ -174,6 +174,22 @@ Validate the Instance from the GUI:
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722830-7414fd2c-ab59-4efd-a59e-69bf828dc909.png">
 
+3. Add two rules in the default security group to enable ssh port and ICMP
+
+>> Project→ Network→ Security Groups → Manage Rule
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227723242-88d9da4e-198c-41d5-9817-77fb16284463.png">
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227723332-143096ba-60cc-424c-bb7a-34a0e4d67945.png">
+
+validate two rules added
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227723506-781e77e7-4917-430a-83cf-1eda801c648d.png">
+
+
+
+
+
 
 
 
