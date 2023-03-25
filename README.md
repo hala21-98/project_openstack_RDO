@@ -54,6 +54,28 @@ This will enable old Linux NIC card naming (eth0, eth1, …etc).
 
 4. When the installation is over Reboot and Accept the Licenses,
 
+## 4. Prerequisites Deployment:
+
+As a prerequisite, you have to install the needed repos and Adding to that, you must disable some services and enable the legacy network service.
+The below section illustrates the actions we have to follow:
+Firstly, we need to check the hostname, and check if we can reach the internet or not, and switch to be root.
+
+1. Switch to root,
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227682865-001f0fa0-b3d2-47dd-8087-c3ef86d5ee12.png">
+
+2. Add the hostname to /etc/hosts and make an alias for it,
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227683541-db6ba19a-08d2-479f-a336-9c74aac57a8a.png">
+
+3. Disable and stop firewalld
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227684180-7832b68b-adbe-41d5-aacd-9047ce67835c.png">
+
+
+
+
+
 
 
 
