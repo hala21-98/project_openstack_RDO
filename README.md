@@ -95,9 +95,9 @@ sed -i 's/SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688059-0b458126-e537-42c5-ad58-6ad078467088.png">
 
 9. Update the system,
-
+```
 dnf -y update
-
+```
 10. Install Packstack
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688823-3f62669d-f64b-42fc-943b-ccd2b3dfcf95.png">
@@ -115,7 +115,11 @@ packstack --gen-answer-file=/root/answers.txt --os-neutron-l2-agent=openvswitch
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689149-34e37516-f03c-433c-8130-6dfff788afc2.png">
 
+Wait for the installation to finish, you can access the openstack dashboard browse to 192.168.140.131
 
+<img width="420" alt="image" src="![Inkedopen12](https://user-images.githubusercontent.com/76592289/227689545-0e1d9fe6-d7ef-4aa2-b88f-ea303e79f718.jpg">
+
+## 5. Validation:
 
 
 
