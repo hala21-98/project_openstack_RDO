@@ -199,13 +199,13 @@ openstack server create --image 'cirros image' --flavor m1.tiny --network Intern
 
 >> We know the IP for this Instance from GUI
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736139-b3f6a1c1-d370-4e19-9adb-9ac9bbe97a75.png">
-
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227735760-12f5cfe6-1d97-46f9-90a7-64ea337aae59.png">
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738009-c2b51c48-3fd7-4bbf-9b7e-adadd56a57d5.png">
 
 Validate the Instance from the GUI:
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227735811-77bffe55-bfa3-4285-b227-f1d6335e141f.png">
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736139-b3f6a1c1-d370-4e19-9adb-9ac9bbe97a75.png">
 
 3. Add two rules in the default security group to enable ssh port and ICMP
 
