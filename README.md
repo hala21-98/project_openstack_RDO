@@ -156,7 +156,7 @@ openstack server create --image 'cirros image' --flavor m1.tiny --network Intern
 
 2.2 Create FloatingIP, to reach our instance from the Internet
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227721716-b9d7e946-2c7a-496a-aaed-3bbe7710cd5f.png">
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736259-b4d94778-a2df-43d5-8ba9-7926b67acdb3.png">
 
 2.3 Assign the FloatingIP to the Instance_Port
 
