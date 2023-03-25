@@ -117,7 +117,7 @@ packstack --gen-answer-file=/root/answers.txt --os-neutron-l2-agent=openvswitch
 
 Wait for the installation to finish, you can access the openstack dashboard browse to 192.168.140.131
 
-<img width="420" alt="image" src="![Inkedopen12](https://user-images.githubusercontent.com/76592289/227689545-0e1d9fe6-d7ef-4aa2-b88f-ea303e79f718.jpg">
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689545-0e1d9fe6-d7ef-4aa2-b88f-ea303e79f718.jpg">
 
 ## 5. Validation:
 
