@@ -150,23 +150,15 @@ openstack server create --image 'cirros image' --flavor m1.tiny --network Intern
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227735989-d6d9445f-5ea6-4790-8fae-dd217c112517.png">
 
-2.1 validate the instance from the GUI
-
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736139-b3f6a1c1-d370-4e19-9adb-9ac9bbe97a75.png">
-
-2.2 Create FloatingIP, to reach our instance from the Internet
+2.1 Create FloatingIP, to reach our instance from the Internet
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736259-b4d94778-a2df-43d5-8ba9-7926b67acdb3.png">
 
-2.3 Assign the FloatingIP to the Instance_Port
+2.2 Assign the FloatingIP to the Instance_Port
 
 >> We know the IP for this Instance from GUI
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722152-a774b449-d960-42f5-974d-22090790ac20.png">
-
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722547-c7cf6386-c287-4938-b8eb-65ad2d1a5b14.png">
-
-Then let’s assigen the FloatingIP for the Instance Port
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736139-b3f6a1c1-d370-4e19-9adb-9ac9bbe97a75.png">
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227735760-12f5cfe6-1d97-46f9-90a7-64ea337aae59.png">
 
