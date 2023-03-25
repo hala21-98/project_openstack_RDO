@@ -127,7 +127,48 @@ open the dashboard in your browser, and enter the User Name and the password to 
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689951-9dead25a-d272-4d8b-92f7-50bd73e70d1d.PNG">
 
-1. Install image file and Create image using glance component:
+1.1 Create a Private Network and then Create a Private Subnet:
+
+```
+1- neutron net-create Internal
+
+2- openstack subnet create --network Internal --subnet-range 192.168.10.0/24 --dhcp Internal_subnet
+```
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227736798-7cde2801-82d3-4416-9c44-d7b3dcb41912.png">
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227736748-d94a175b-9e5f-45be-b3c6-a6c44fef1e93.png">
+
+1.2 Create an External Network and then Create an External Subnet
+
+```
+1- openstack network create External --provider-network-type flat --provider-physical-network extnet --external
+
+2- openstack subnet create External_subnet --no-dhcp --allocation-pool start=192.168.120.160,end=192.168.120.170 --gateway 192.168.120.2 --network External --subnet-range 192.168.120.0/24
+```
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227736984-bd2386d2-ae3c-49d3-ade9-40ce7201d34f.png">
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227737103-5e44516e-503d-4666-9242-dcb11a0530ef.png"> 
+
+1.3 Create a Router: To connect the external network and the internal network to each other.
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227737224-ac1a263b-1dd5-43b8-a71e-4a9d8cb9eb76.png">
+
+Set Router Gateway, Using External Network:
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227737307-e05f8f20-d882-4005-8ad6-46ea3964f923.png">
+
+Set Router Gateway, Using Internal Network
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227737624-f43ad665-6f3a-4efb-9e45-3a41d9e8b313.png">
+                                  
+1.4 validate network topology from the GUI
+                                  
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227737447-2f7a165e-f8a0-4a9c-8932-956ec6f51b49.PNG">
+                           
+
+2. Install image file and Create image using glance component:
 
 ```
 curl -L http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img | glance image-create --name='cirros image' --visibility=public --container-format=bare --disk-format=qcow2
@@ -136,13 +177,13 @@ curl -L http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img | gl
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227719344-2b403d30-5e61-4ccd-af05-96ddc88cb12f.png">
 
-1.1 validate the image from the GUI
+2.1 validate the image from the GUI
 
 >> project->compute->images
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227719563-b3518cc1-c485-4c91-a4ff-4a99cc2d7f61.png">
 
-2. create the Instance 
+3. create the Instance 
 
 ```
 openstack server create --image 'cirros image' --flavor m1.tiny --network Internal server2
