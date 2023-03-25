@@ -136,9 +136,53 @@ curl -L http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img | gl
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227719344-2b403d30-5e61-4ccd-af05-96ddc88cb12f.png">
 
-After installtion 
+1.1 validate the image from the GUI
 
-<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227719563-b3518cc1-c485-4c91-a4ff-4a99cc2d7f61.png">
+>> project->compute->images
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227719563-b3518cc1-c485-4c91-a4ff-4a99cc2d7f61.png">
+
+2. create the Instance 
+
+```
+openstack server create --image 'cirros image' --flavor m1.tiny --network Internal server1
+```
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227720876-f759a2dd-4835-4c4e-b6ef-6ec92ad88b52.png">
+
+2.1 validate the instance from the GUI
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227721071-7e11780d-b990-4bf5-abd3-a3ec7ab32105.png">
+
+2.2 Create FloatingIP, to reach our instance from the Internet
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227721716-b9d7e946-2c7a-496a-aaed-3bbe7710cd5f.png">
+
+2.3 Assign the FloatingIP to the Instance_Port
+
+>> We know the IP for this Instance from GUI
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722152-a774b449-d960-42f5-974d-22090790ac20.png">
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722547-c7cf6386-c287-4938-b8eb-65ad2d1a5b14.png">
+
+Then let’s assigen the FloatingIP for the Instance Port
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722717-d35fb93b-92ed-46c6-b163-c48fd9bb5610.png">
+
+Validate the Instance from the GUI:
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227722830-7414fd2c-ab59-4efd-a59e-69bf828dc909.png">
+
+
+
+
+
+
+
+
+
+
 
 
 
