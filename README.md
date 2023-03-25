@@ -121,6 +121,15 @@ Wait for the installation to finish, you can access the openstack dashboard brow
 
 ## 5. Validation:
 
+open the dashboard in your browser, and enter the User Name and the password to Sign In.
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689810-d28657c5-bf6b-4605-812e-34bd5735394d.PNG">
+
+
+
+
+
+
 
 
 
