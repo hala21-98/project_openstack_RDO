@@ -40,6 +40,22 @@ This will enable old Linux NIC card naming (eth0, eth1, …etc).
      
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227682445-502819db-cf30-4523-acd2-1677dc878f40.png">
 
+2.3 Select the Installation Destination and choose your HDD, just click to Done button if u just have one HDD.
+
+2.4 Click the Time and Date button and select Cairo as your local time zone, Make sure that NTP on the top right is enabled, click on the gear icon and wait for a moment to make sure it is syncing with centos public NTP servers.
+
+2.5 For Software Selection, please, select Server with GUI
+
+2.6 create root password,
+
+2.7 create user and make him Admin,
+
+3. Once all are set. Begin the OS installation.
+
+4. When the installation is over Reboot and Accept the Licenses,
+
+
+
 
 
 
