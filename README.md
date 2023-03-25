@@ -145,14 +145,14 @@ curl -L http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img | gl
 2. create the Instance 
 
 ```
-openstack server create --image 'cirros image' --flavor m1.tiny --network Internal server1
+openstack server create --image 'cirros image' --flavor m1.tiny --network Internal server2
 ```
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227720876-f759a2dd-4835-4c4e-b6ef-6ec92ad88b52.png">
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227735989-d6d9445f-5ea6-4790-8fae-dd217c112517.png">
 
 2.1 validate the instance from the GUI
 
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227721071-7e11780d-b990-4bf5-abd3-a3ec7ab32105.png">
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227736139-b3f6a1c1-d370-4e19-9adb-9ac9bbe97a75.png">
 
 2.2 Create FloatingIP, to reach our instance from the Internet
 
