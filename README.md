@@ -1,7 +1,7 @@
 # private_cloud_openstack_RDO
 How to build a private cloud using openstack
 
-<img width="533" alt="image" src="https://user-images.githubusercontent.com/76592289/227682132-a1e8ee43-20bb-4b2f-a433-b1998eeac707.jpg)">
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/76592289/227682132-a1e8ee43-20bb-4b2f-a433-b1998eeac707.jpg">
 
                                   
 ## A Project on how to build a private cloud using Openstack RDO.
@@ -21,4 +21,6 @@ FQDN of machine openstack.lab.local, so we should edit /etc/hosts file.
 ## 3. Operating System Installation :
 During the installation of the CentOS OS. Move to Install CentOS Stream 8-stream and click tab on your keyboard.
 Thin Type a space to separate than the last kernel option, type net.ifnames=0 biosdevname=0
-<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227681824-fa0327f3-9797-48c0-a0db-16c866cc175a.png">
+
+
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/76592289/227681824-fa0327f3-9797-48c0-a0db-16c866cc175a.png">
