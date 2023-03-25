@@ -72,6 +72,25 @@ Firstly, we need to check the hostname, and check if we can reach the internet o
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227684180-7832b68b-adbe-41d5-aacd-9047ce67835c.png">
 
+4. Disable SeLinux
+
+sed -i 's/SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227685054-b0e9b7b0-d5fb-498f-abfa-ec8c652b009f.png">
+
+5. Disable and stop Networkmanager
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227685745-8d31dd68-a85b-472d-b121-f260cd7d371b.png">
+
+6. Download network-scripts
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227685998-32074c90-72b0-436e-9da2-58d009619acb.png">
+
+
+
+
+
+
 
 
 
