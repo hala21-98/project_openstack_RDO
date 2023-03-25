@@ -127,6 +127,11 @@ open the dashboard in your browser, and enter the User Name and the password to 
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689951-9dead25a-d272-4d8b-92f7-50bd73e70d1d.PNG">
 
+1. Install image file and Create image using glance component:
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227719344-2b403d30-5e61-4ccd-af05-96ddc88cb12f.png">
+
+
 
 
 
