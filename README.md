@@ -144,7 +144,7 @@ open the dashboard in your browser, and enter the User Name and the password to 
 ```
 1- openstack network create External --provider-network-type flat --provider-physical-network extnet --external
 
-2- openstack subnet create External_subnet --no-dhcp --allocation-pool start=192.168.120.160,end=192.168.120.170 --gateway 192.168.120.2 --network External --subnet-range 192.168.120.0/24
+2- openstack subnet create External_subnet --no-dhcp --allocation-pool start=192.168.140.141,end=192.168.140.151 --gateway 192.168.140.2 --network External --subnet-range 192.168.140.0/24
 ```
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227736984-bd2386d2-ae3c-49d3-ade9-40ce7201d34f.png">
@@ -217,6 +217,19 @@ Validate the Instance from the GUI:
 validate two rules added
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227723506-781e77e7-4917-430a-83cf-1eda801c648d.png">
+
+## 6. Connect to your instance by SSH,
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738683-a9d5d2bb-e0fe-43ab-a9fb-90bca5e179c2.png">
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738842-a679c862-6bc7-4ab6-9108-da693eb2dc77.png">
+
+Ping from the instance to the host,
+
+<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738890-672444be-e195-4953-a93e-290954e4a982.png">
+
+
+
 
 
 
