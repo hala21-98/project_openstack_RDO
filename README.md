@@ -86,6 +86,29 @@ sed -i 's/SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227685998-32074c90-72b0-436e-9da2-58d009619acb.png">
 
+7. Enable and Start network-scripts
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688020-8630af38-0e9e-4ab5-a5d1-de3b00c1d4bc.png">
+
+8. Enable power tools and install yoga,
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688059-0b458126-e537-42c5-ad58-6ad078467088.png">
+
+9. Update the system,
+
+10. dnf install -y openstack-packstack
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688823-3f62669d-f64b-42fc-943b-ccd2b3dfcf95.png">
+
+11. Generate answer file,
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227688975-6e84bfe8-ec82-44e7-8bbd-8c2ca8b380c0.png">
+
+
+
+
+
+
 
 
 
