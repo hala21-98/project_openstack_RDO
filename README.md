@@ -166,7 +166,8 @@ Set Router Gateway, Using Internal Network
 1.4 validate network topology from the GUI
                                   
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227737447-2f7a165e-f8a0-4a9c-8932-956ec6f51b49.PNG">
-                           
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227738399-3f575f38-3ca5-4cc9-a068-826856bdef1d.png">
 
 2. Install image file and Create image using glance component:
 
@@ -198,8 +199,6 @@ openstack server create --image 'cirros image' --flavor m1.tiny --network Intern
 2.2 Assign the FloatingIP to the Instance_Port
 
 >> We know the IP for this Instance from GUI
-
-<img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227735760-12f5cfe6-1d97-46f9-90a7-64ea337aae59.png">
 
 <img width="520" alt="image" src="https://user-images.githubusercontent.com/76592289/227738009-c2b51c48-3fd7-4bbf-9b7e-adadd56a57d5.png">
 
