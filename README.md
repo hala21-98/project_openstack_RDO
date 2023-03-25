@@ -129,7 +129,20 @@ open the dashboard in your browser, and enter the User Name and the password to 
 
 1. Install image file and Create image using glance component:
 
+```
+curl -L http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img | glance image-create --name='cirros image' --visibility=public --container-format=bare --disk-format=qcow2
+```
+>> CirrOS is a minimal Linux distribution that was designed for use as a test image on clouds such as OpenStack Compute.
+
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227719344-2b403d30-5e61-4ccd-af05-96ddc88cb12f.png">
+
+After installtion 
+
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227719563-b3518cc1-c485-4c91-a4ff-4a99cc2d7f61.png">
+
+
+
+
 
 
 
