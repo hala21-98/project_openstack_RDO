@@ -26,6 +26,7 @@ Thin Type a space to separate than the last kernel option, type net.ifnames=0 bi
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/76592289/227681824-fa0327f3-9797-48c0-a0db-16c866cc175a.png">
 
 This will enable old Linux NIC card naming (eth0, eth1, …etc).
+
 2. Now you see the installation screen, Click on Network & Host.
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227682265-ecd6c7f2-dceb-472f-86d5-a97ab0df31a4.png">
