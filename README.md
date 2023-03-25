@@ -125,6 +125,10 @@ open the dashboard in your browser, and enter the User Name and the password to 
 
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689810-d28657c5-bf6b-4605-812e-34bd5735394d.PNG">
 
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/76592289/227689951-9dead25a-d272-4d8b-92f7-50bd73e70d1d.PNG">
+
+
+
 
 
 
